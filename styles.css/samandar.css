@@ -58,8 +58,8 @@ button{
 
 .container{
     max-width: 1400px;
-    width: 100%;
-    margin: 20px auto;
+    /* width: 100%; */
+    margin: 20px auto !important;
     /* border: 2px solid; */
 }
 
@@ -222,16 +222,36 @@ hr{
     background: var(--Dark-Blue, #0A2640);
     margin-bottom: 96px;
 }
+.sarlavha{
+    width: 842px;
+    margin-left: 100px;
+    margin-bottom: -70px;
+}
+.sarlavha h1{
+    color: #000;
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+}
 .second{
     display: flex;
 width: 998px;
 height: 424px;
 margin: 0 auto;
+margin-top: 80px;
+}
+.rasm1,
+.rasm2,
+.rasm3,
+.small{
+    margin-top: 24px;
 }
 .btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-left: 650px; */
+    margin-top: 96px;
 }
 /* blog end */
